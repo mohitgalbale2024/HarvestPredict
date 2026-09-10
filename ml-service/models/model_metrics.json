@@ -1,0 +1,21 @@
+{
+  "best_model": "GradientBoostingRegressor",
+  "r2": 0.987876,
+  "rmse": 2.192184,
+  "mae": 0.811135,
+  "feature_importance": {
+    "crop": 0.003075,
+    "season": 0.944259,
+    "year": 0.0015,
+    "rainfall_mm": 0.001025,
+    "temperature": 0.005956,
+    "humidity": 0.003756,
+    "nitrogen": 0.008707,
+    "phosphorus": 0.006436,
+    "potassium": 0.008391,
+    "ph": 0.001804,
+    "area_hectares": 0.000862,
+    "irrigation": 0.010324,
+    "fertilizer_used": 0.003904
+  }
+}
