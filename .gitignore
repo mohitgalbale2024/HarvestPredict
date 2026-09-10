@@ -1,0 +1,41 @@
+# ===== Node / NPM =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== Build outputs =====
+dist/
+build/
+.vite/
+*.tsbuildinfo
+
+# ===== Environment files (keep secrets out of git) =====
+.env
+.env.local
+.env.*.local
+
+# ===== Python / ML service =====
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+.Python
+
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ===== Logs =====
+logs/
+*.log
+
+# ===== Misc =====
+.cache/
+coverage/
